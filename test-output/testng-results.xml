@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36" started-at="2017-07-24T18:33:21Z" finished-at="2017-07-24T18:33:21Z">
+  <suite name="Default suite" duration-ms="43" started-at="2017-07-24T18:39:14Z" finished-at="2017-07-24T18:39:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36" started-at="2017-07-24T18:33:21Z" finished-at="2017-07-24T18:33:21Z">
+    <test name="Default test" duration-ms="43" started-at="2017-07-24T18:39:14Z" finished-at="2017-07-24T18:39:14Z">
       <class name="testngExamples.FooTest">
-        <test-method status="PASS" signature="setOptions(org.testng.xml.XmlTest)[pri:0, instance:testngExamples.FooTest@4de8b406]" name="setOptions" is-config="true" duration-ms="7" started-at="2017-07-24T14:33:21Z" finished-at="2017-07-24T14:33:21Z">
+        <test-method status="PASS" signature="setOptions(org.testng.xml.XmlTest)[pri:0, instance:testngExamples.FooTest@402f32ff]" name="setOptions" is-config="true" duration-ms="5" started-at="2017-07-24T14:39:14Z" finished-at="2017-07-24T14:39:14Z">
           <params>
             <param index="0">
               <value>
@@ -18,22 +18,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setOptions -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:testngExamples.FooTest@4de8b406]" name="test1" duration-ms="5" started-at="2017-07-24T14:33:21Z" finished-at="2017-07-24T14:33:21Z">
+        <test-method status="PASS" signature="setEnvironment()[pri:0, instance:testngExamples.FooTest@402f32ff]" name="setEnvironment" is-config="true" duration-ms="0" started-at="2017-07-24T14:39:14Z" finished-at="2017-07-24T14:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setEnvironment -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:testngExamples.FooTest@402f32ff]" name="test1" duration-ms="7" started-at="2017-07-24T14:39:14Z" finished-at="2017-07-24T14:39:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:testngExamples.FooTest@4de8b406]" name="test2" duration-ms="1" started-at="2017-07-24T14:33:21Z" finished-at="2017-07-24T14:33:21Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:testngExamples.FooTest@402f32ff]" name="test2" duration-ms="2" started-at="2017-07-24T14:39:14Z" finished-at="2017-07-24T14:39:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:testngExamples.FooTest@6a2bcfcb]" name="test1" duration-ms="1" started-at="2017-07-24T14:33:21Z" finished-at="2017-07-24T14:33:21Z">
+        <test-method status="PASS" signature="removeEnvironment()[pri:0, instance:testngExamples.FooTest@402f32ff]" name="removeEnvironment" is-config="true" duration-ms="0" started-at="2017-07-24T14:39:14Z" finished-at="2017-07-24T14:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeEnvironment -->
+        <test-method status="PASS" signature="setEnvironment()[pri:0, instance:testngExamples.FooTest@402f32ff]" name="setEnvironment" is-config="true" duration-ms="1" started-at="2017-07-24T14:39:14Z" finished-at="2017-07-24T14:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setEnvironment -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:testngExamples.FooTest@48eff760]" name="test1" duration-ms="2" started-at="2017-07-24T14:39:14Z" finished-at="2017-07-24T14:39:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:testngExamples.FooTest@6a2bcfcb]" name="test2" duration-ms="1" started-at="2017-07-24T14:33:21Z" finished-at="2017-07-24T14:33:21Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:testngExamples.FooTest@48eff760]" name="test2" duration-ms="2" started-at="2017-07-24T14:39:14Z" finished-at="2017-07-24T14:39:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="removeEnvironment()[pri:0, instance:testngExamples.FooTest@402f32ff]" name="removeEnvironment" is-config="true" duration-ms="0" started-at="2017-07-24T14:39:14Z" finished-at="2017-07-24T14:39:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeEnvironment -->
       </class> <!-- testngExamples.FooTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
